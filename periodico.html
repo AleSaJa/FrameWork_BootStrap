@@ -1,0 +1,146 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+
+
+    <!--Estilos Propios-->
+
+    <style>
+        *{
+            scroll-behavior: smooth;
+        }
+        .centrar{
+            text-align: center;
+        }
+        .punpun{
+            height: 360px;
+        }
+    </style>
+
+    <title>Newspaper Example!</title>
+</head>
+<body>
+    
+    <!--Titulo de Periodico-->
+    <div class="jumbotron jumbotron-fluid" id="top">
+        <div class="container centrar">
+            <h1 class="display-4">Newspaper Example</h1>
+            <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
+        </div>
+    </div>  
+    
+    <!--Barra de Naveegación tipo Nav, responsiva-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#info">Characters</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#cards">Others</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" target="_blank" href="/contacto.html">Contact</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link disabled">Disabled</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <main id="info">
+
+        <!--Implementando Grids-->
+        <div class="container">
+            <h1 class="centrar">Sachi Nanjou</h1>
+            <div class="row">
+                <div class="col-sm">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium, minus nobis? In nisi id reiciendis eveniet consequuntur quidem suscipit, reprehenderit nulla pariatur obcaecati dolore maxime aspernatur illo, minima nihil quam?Saepe, tempore. Temporibus eveniet nostrum itaque ut unde exercitationem rerum, eos, eaque id voluptatem illo, dolorum sint ipsam? Saepe ipsa quisquam doloribus et beatae, quia quo nemo consectetur nesciunt ipsam! Ea iusto tenetur similique delectus nam. Dolor voluptatibus reiciendis tempora doloribus! At facere quia rem enim illo labore, rerum ratione maiores ad doloribus necessitatibus aspernatur, error eligendi magnam ipsum pariatur?</p>
+                </div>
+                <div class="col-sm centrar">
+                    <img  src="https://pbs.twimg.com/media/EX1gQboXsAAkPhY?format=jpg&name=360x360" class="img-fluid" alt="Sachi Nanjou | :p">
+                </div>
+            </div>
+        </div><br><br>
+
+        <!--Otras Dos Columnas-->
+        <div class="container">
+            <h1 class="centrar">Onodera Punpun</h1>
+            <div class="row">
+                <div class="col-sm centrar">
+                    <img src="https://i.pinimg.com/originals/81/c3/03/81c303a25bcb3331a28b865ecb278ed8.jpg" class="img-fluid punpun" alt="Onodera Punpun (Pollito)">
+                </div>
+                <div class="col-sm">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium, minus nobis? In nisi id reiciendis eveniet consequuntur quidem suscipit, reprehenderit nulla pariatur obcaecati dolore maxime aspernatur illo, minima nihil quam?Saepe, tempore. Temporibus eveniet nostrum itaque ut unde exercitationem rerum, eos, eaque id voluptatem illo, dolorum sint ipsam? Saepe ipsa quisquam doloribus et beatae, quia quo nemo consectetur nesciunt ipsam! Ea iusto tenetur similique delectus nam. Dolor voluptatibus reiciendis tempora doloribus! At facere quia rem enim illo labore, rerum ratione maiores ad doloribus necessitatibus aspernatur, error eligendi magnam ipsum pariatur?</p>
+                </div>
+            </div><br><br>
+
+            <h1 class="centrar">Aiko Tanaka</h1>
+            <div class="row">
+                <div class="col-sm centrar">
+                    <img src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/hostedimages/1567884932i/28115234._SX540_.jpg" class="img-fluid punpun" alt="Aiko Tanaka | lml">
+                </div>
+                <div class="col-sm">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium, minus nobis? In nisi id reiciendis eveniet consequuntur quidem suscipit, reprehenderit nulla pariatur obcaecati dolore maxime aspernatur illo, minima nihil quam?Saepe, tempore. Temporibus eveniet nostrum itaque ut unde exercitationem rerum, eos, eaque id voluptatem illo, dolorum sint ipsam? Saepe ipsa quisquam doloribus et beatae, quia quo nemo consectetur nesciunt ipsam! Ea iusto tenetur similique delectus nam. Dolor voluptatibus reiciendis tempora doloribus! At facere quia rem enim illo labore, rerum ratione maiores ad doloribus necessitatibus aspernatur, error eligendi magnam ipsum pariatur?</p>
+                </div>
+            </div>
+        </div>
+    </main><br><br>
+    
+    <!--Cards-->
+    <div class="container" id="cards">
+        <h1 class="centrar">More Works</h1>
+        <div class="row">
+            <div class="col-sm">
+                <div class="card" style="width: 18rem;">
+                    <img src="https://i0.wp.com/www.senpai.com.mx/wp-content/uploads/2021/10/Mangaka-de-Oyasumi-Punpun-realiza-una-ilustracion-de-Far-Cry-6.jpg?w=1280&ssl=1" class="card-img-top" alt="">
+                    <div class="card-body">
+                        <h5 class="card-title">Dead Dead Demon's DeDeDeDe Destruction Wiki</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt consequuntur debitis et nobis corrupti placeat aperiam soluta, eius praesentium sequi error mollitia incidunt quos! Dolor ipsa accusantium modi distinctio amet.</p>
+                        <a href="https://animanga.fandom.com/wiki/Dead_Dead_Demon%27s_Dededededestruction" target="_blank" class="btn btn-primary">Wiki</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm">
+                <div class="card" style="width: 18rem;">
+                    <img src="https://images-na.ssl-images-amazon.com/images/I/61VnVybND4L._SX347_BO1,204,203,200_.jpg" alt="Vol. 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Volume 01</h5>
+                        <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione consectetur odio nesciunt distinctio quibusdam cupiditate nihil minima commodi deleniti veritatis. Magnam repellat velit eius voluptatibus non officiis tenetur illum quos.</p>
+                        <a href="https://www.amazon.com.mx/Goodnight-Punpun-1-Inio-Asano/dp/1421586207" target="_blank" class="btn btn-primary">Volume</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm">
+                <div class="card" style="width: 18rem;">
+                    <img src="https://images2-mega.cdn.mdstrm.com/etcetera/2019/08/06/8622_6_5d49dc7bb7d93.jpg" class="card-img-top" alt="Sky">
+                    <div class="card-body">
+                        <h5 class="card-title">Oyasumi Punpun Wiki</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni recusandae sequi aspernatur saepe. Eveniet impedit quisquam in dolorum, saepe accusantium laborum eum eius optio dignissimos commodi consectetur aperiam rem libero?</p>
+                        <a href="https://punpun.fandom.com/wiki/Oyasumi_Punpun_Wiki" target="_blank" class="btn btn-primary">Wiki</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
+</body>
+</html>
