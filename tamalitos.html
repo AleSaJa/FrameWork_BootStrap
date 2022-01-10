@@ -1,0 +1,249 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+
+    <title>Hello, world!</title>
+</head>
+<body class="text-monospace">
+    
+    <!--JumpBotron-->
+    <div class="jumbotron" id="top">
+        <h1 class="display-4">Galeria de Imagenes</h1>
+        <p class="lead">Implementado BootStrap para un ejercicio de Página Responsiva. Tamalitos</p>
+    </div>
+
+    <!--NavBar-->
+    <nav class="navbar sticky-top navbar-expand-lg mb-4 navbar-dark bg-dark">
+        <span class="navbar-brand">Tamalitos</span>>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+                <a class="nav-link active" href="#top">Home <span class="sr-only">(current)</span></a>
+                <a class="nav-link" href="#gallery">Features</a>
+                <a class="nav-link" href="#">Pricing</a>
+                <a class="nav-link disabled">Disabled</a>
+            </div>
+        </div>
+    </nav>
+
+
+    <div class="container-lg text-white">
+
+        <!--Gird de dos columnas -->
+        <div class="row bg-dark border border-info rounded">
+            <div class="col-sm-4 align-self-sm-center">
+                <a href="https://roscavirtual.com/" target="_blank">
+                    <img src="./assets/tamal.png" alt="" class="w-100">
+                </a>
+            </div>
+            <div class="col-sm-8">
+                <h3>Rosca Virtual</h3>
+                <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores officia nesciunt, minima quo repellat consectetur ipsa excepturi non id. Obcaecati consequuntur ab ipsum nisi reprehenderit unde vel voluptates possimus omnis!</span>
+            </div>
+        </div>
+
+    <!--Card, con contenido lateral-->
+        <div class="card mt-3 card  bg-dark">
+            <div class="row no-gutters">
+                <div class="col-md-4">
+                    <img src="./assets/bongoCat.gif" class="d-block w-100" alt="imagen">
+                </div>
+                <div class="col-md-8">
+                    <div class="card-body">
+                        <h5 class="card-title">Bongo Cat Gift</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Distinctio quidem aperiam eum eligendi sed. Doloremque quibusdam ducimus, consequatur blanditiis, voluptatem minus dolorum eius velit nobis nesciunt repellendus in sit asperiores.</p>
+                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--Grid Cards, con carrusel de imagenes-->
+        <div class="row row-cols-1 row-cols-md-3 mt-5" id="gallery">
+            <div class="col-sm-4 mb-4">
+                <div class="card card  bg-dark h-100">
+                    <div id="card1" class="carousel slide" data-ride="carousel" >
+                        <ol class="carousel-indicators">
+                            <li data-target="#card1" data-slide-to="0" class="active"></li>
+                            <li data-target="#card1" data-slide-to="1"></li>
+                            <li data-target="#card1" data-slide-to="2"></li>
+                            <li data-target="#card1" data-slide-to="3"></li>
+                            <li data-target="#card1" data-slide-to="4"></li>
+                            <li data-target="#card1" data-slide-to="5"></li>
+                            <li data-target="#card1" data-slide-to="6"></li>
+                        </ol>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active" data-interval="5000">
+                                <img src="./assets/a1.webp" class="d-block w-100" alt="imagen">
+                            </div>
+                            <div class="carousel-item" data-interval="5000">
+                                <img src="./assets/a2.webp" class=".d-block w-100" alt="imagen">
+                            </div>
+                            <div class="carousel-item" data-interval="5000">
+                                <img src="./assets/a3.webp" class="d-block w-100" alt="imagen">
+                            </div>
+                            <div class="carousel-item" data-interval="5000">
+                                <img src="./assets/a4.webp" class="d-block w-100" alt="imagen">
+                            </div>
+                            <div class="carousel-item" data-interval="5000">
+                                <img src="./assets/a5.webp" class="d-block w-100" alt="imagen">
+                            </div>
+                            <div class="carousel-item" data-interval="5000">
+                                <img src="./assets/a6.webp" class="d-block w-100" alt="imagen">
+                            </div>
+                            <div class="carousel-item" data-interval="5000">
+                                <img src="./assets/a7.webp" class="d-block w-100" alt="imagen">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-target="#card1" data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-target="#card1" data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </button>
+                    </div>
+                    <div class="card-body">
+                    <h5 class="card-title">Animatrix</h5>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Et porro quam dignissimos nisi maiores nihil suscipit ducimus, ab similique, vitae quibusdam. Iste consectetur corrupti molestiae sit ipsa architecto quam sequi!</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4 mb-4">
+                <div class="card card  bg-dark h-100">
+                    <div id="card2" class="carousel slide" data-ride="carousel" >
+                        <ol class="carousel-indicators">
+                            <li data-target="#card2" data-slide-to="0" class="active"></li>
+                            <li data-target="#card2" data-slide-to="1"></li>
+                            <li data-target="#card2" data-slide-to="2"></li>
+                            <li data-target="#card2" data-slide-to="3"></li>
+                        </ol>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active" data-interval="6000">
+                                <img src="./assets/q.jpg" class="d-block w-100" alt="imagen">
+                            </div>
+                            <div class="carousel-item" data-interval="6000">
+                                <img src="./assets/Aiko.jpg" class=".d-block w-100" alt="imagen">
+                            </div>
+                            <div class="carousel-item" data-interval="6000">
+                                <img src="./assets/Sachi.jpg" class="d-block w-100" alt="imagen">
+                            </div>
+                            <div class="carousel-item" data-interval="6000">
+                                <img src="./assets/Sky.jpg" class="d-block w-100" alt="imagen">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-target="#card2" data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-target="#card2" data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </button>
+                    </div>
+                    <div class="card-body">
+                    <h5 class="card-title">Oyasumi</h5>
+                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem autem reiciendis vero ad error veritatis deserunt in voluptate praesentium, architecto atque, quae quidem dolore, iusto officia. Quas obcaecati dolore deserunt!</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4 mb-4">
+                <div class="card card  bg-dark h-100">
+                    <div id="card3" class="carousel slide" data-ride="carousel" >
+                        <ol class="carousel-indicators">
+                            <li data-target="#card3" data-slide-to="0" class="active"></li>
+                            <li data-target="#card3" data-slide-to="1"></li>
+                            <li data-target="#card3" data-slide-to="2"></li>
+                            <li data-target="#card3" data-slide-to="3"></li>
+                            <li data-target="#card3" data-slide-to="3"></li>
+                        </ol>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active" data-interval="7000">
+                                <img src="./assets/d1.jpg" class="d-block w-100" alt="imagen">
+                            </div>
+                            <div class="carousel-item" data-interval="7000">
+                                <img src="./assets/d2.jpg" class="d-block w-100" alt="imagen">
+                            </div>
+                            <div class="carousel-item" data-interval="7000">
+                                <img src="./assets/d3.jpg" class="d-block w-100" alt="imagen">
+                            </div>
+                            <div class="carousel-item" data-interval="7000">
+                                <img src="./assets/d4.jpg" class="d-block w-100" alt="imagen">
+                            </div>
+                            <div class="carousel-item" data-interval="7000">
+                                <img src="./assets/d5.jpg" class="d-block w-100" alt="imagen">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-target="#card3" data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-target="#card3" data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </button>
+                    </div>
+                    <div class="card-body">
+                    <h5 class="card-title">Dead Dead Demon's DeDeDeDe Destruction</h5>
+                    <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quae consectetur fuga magnam corporis reprehenderit. Nesciunt, laudantium fugit! Soluta, eaque ipsam natus repellat blanditiis vero molestiae non. Odio, quae. Ab, commodi!</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm mb-4">
+                <div class="card card  bg-dark h-100">
+                    <div id="card4" class="carousel slide" data-ride="carousel" >
+                        <ol class="carousel-indicators">
+                            <li data-target="#card4" data-slide-to="0" class="active"></li>
+                            <li data-target="#card4" data-slide-to="1"></li>
+                            <li data-target="#card4" data-slide-to="2"></li>
+                            <li data-target="#card4" data-slide-to="3"></li>
+                        </ol>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active" data-interval="4000">
+                                <img src="./assets/h1.png" class="d-block w-100" alt="imagen">
+                            </div>
+                            <div class="carousel-item" data-interval="4000">
+                                <img src="./assets/h2.png" class="d-block w-100" alt="imagen">
+                            </div>
+                            <div class="carousel-item" data-interval="4000">
+                                <img src="./assets/h3.jpg" class="d-block w-100" alt="imagen">
+                            </div>
+                            <div class="carousel-item" data-interval="4000">
+                                <img src="./assets/h4.jpg" class="d-block w-100" alt="imagen">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-target="#card4" data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-target="#card4" data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </button>
+                    </div>
+                    <div class="card-body">
+                    <h5 class="card-title">HideOut</h5>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur consectetur commodi, vitae ab exercitationem maiores aliquam odio. Aliquam reiciendis, distinctio, eum quo assumenda sequi placeat quasi, expedita recusandae saepe magni.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
+</body>
+</html>
